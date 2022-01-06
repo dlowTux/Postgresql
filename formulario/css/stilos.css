@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.cuadro{
+    background: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    margin-top: 200px;
+    box-shadow: 6px 20px 10px black;
+}
+.barra{
+    background-color: #1b7d16;
+height: 50px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+padding: 15px;
+color: white;
+box-shadow: 0px 0px 20px green;
+}
+
+.boton{
+    width: 60%;
+    margin-left: 250px;
+}
+.asterisco{
+    color: red;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+<web-app version="3.0">
+	<servlet>
+		<servlet-name>alta</servlet-name>
+	        <servlet-class>alta</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>altaProfesor</servlet-name>
+	        <servlet-class>altaProfesor</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>alta</servlet-name>
+		<url-pattern>/alta</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>altaProfesor</servlet-name>
+		<url-pattern>/altaProfesor</url-pattern>
+	</servlet-mapping>
+</web-app>
